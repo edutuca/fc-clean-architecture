@@ -1,9 +1,8 @@
 import { Sequelize } from "sequelize-typescript";
-import ProductFactory from "../../../domain/product/factory/product.factory";
-import UpdateProductUseCase from "./update.product.usecase";
-import ProductRepository from "../../../infrastructure/product/repository/sequelize/product.repository";
-import ProductModel from "../../../infrastructure/product/repository/sequelize/product.model";
 import Product from "../../../domain/product/entity/product";
+import ProductModel from "../../../infrastructure/product/repository/sequelize/product.model";
+import ProductRepository from "../../../infrastructure/product/repository/sequelize/product.repository";
+import UpdateProductUseCase from "./update.product.usecase";
 
 let sequelize: Sequelize;
 
@@ -25,8 +24,8 @@ afterEach(async () => {
 
 const input = {
   id:"e",
-  name: "Cereja",
-  price: 10
+  name: "CerejaAlterada",
+  price: 112
 };
 
 describe("test integration for product update use case", () => {
