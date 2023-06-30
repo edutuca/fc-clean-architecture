@@ -1,4 +1,0 @@
-2023-06-09 02:58:54.676 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-06-09 02:58:55.398 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
-2023-06-09 02:58:56.161 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
-2023-06-09 02:58:59.226 [info] [perf] Render performance baseline is 56ms
